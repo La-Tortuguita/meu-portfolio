@@ -1,0 +1,115 @@
+
+body {                                          /* Estilos para body */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA; 
+    color: #6A5ACD; 
+}
+
+header {                                        /* Estilos para o cabeçalho */
+    background-color: #B0E0E6; 
+    color: #4682B4; 
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {                                        /* Navegação */
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {                                     /* Estilos para cada item da lista */
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4682B4; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ADD8E6; 
+}
+
+main {                                               /* Principal */
+    padding: 20px;
+    max-width: 960px;
+    margin: auto;
+    background-color: #FFFFFF; 
+    box-shadow: 0 0 15px rgba(176, 224, 230, 0.5); 
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+section {                                            /* Estilos das seções */
+    margin-bottom: 30px;
+}
+
+h1, h2 {                                            /* Títulos */
+    color: #9370DB; 
+
+
+form label {                                            /* Estilização formulário de contato */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6A5ACD; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D8BFD8; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    background-color: #F8F8FF; 
+    color: #483D8B; 
+}
+
+form button {                                             /* Botão de envio do formulário */
+    background-color: #AFEEEE; 
+    color: #4682B4; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+form button:hover {                                         
+    background-color: #B0C4DE; 
+}
+
+footer {                                                    /* Rodapé */
+    text-align: center;
+    padding: 20px;
+    background-color: #B0E0E6; 
+    color: #4682B4; 
+    margin-top: 20px;
+}
+
+
+.content-section {                                      /* Mostrar ou não conteúdo com JavaScript */
+    display: none;
+}
+
+.content-section.active-content {
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
