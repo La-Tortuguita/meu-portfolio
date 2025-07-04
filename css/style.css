@@ -52,7 +52,7 @@ section {                                            /* Estilos das seções */
 
 h1, h2 {                                            /* Títulos */
     color: #9370DB; 
-
+}
 
 form label {                                            /* Estilização formulário de contato */
     display: block;
